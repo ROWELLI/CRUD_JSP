@@ -19,7 +19,7 @@
   <tr><td>Title:</td><td><%= u.getTitle() %></td></tr>
   <tr><td>Writer:</td><td><%= u.getWriter() %></td></tr>
   <tr><td>Content:</td><td><%= u.getContent() %></td></tr>
-  <!-- Add more fields as needed -->
+  <tr><td>Category:</td><td><%= u.getCategory() %></td></tr>
   <tr><td><a href="posts.jsp">View All Records</a></td></tr>
 </table>
 

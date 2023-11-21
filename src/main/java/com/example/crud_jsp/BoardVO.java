@@ -8,8 +8,13 @@ public class BoardVO {
 	private String writer;
 	private String content;
 	private Date regdate;
+	private Date moddate;
+	private String category;
 	private int cnt;
-	
+
+	public BoardVO() {
+	}
+
 	public int getSeq() {
 		return seq;
 	}
@@ -45,5 +50,11 @@ public class BoardVO {
 	}
 	public void setCnt(int cnt) {
 		this.cnt = cnt;
+	}
+	public String getCategory() {return category;}
+	public void setCategory(String category) { this.category = category; }
+	public Date getModdate() { return moddate; }
+	public void setModdate(Date moddate) {
+		this.moddate = moddate;
 	}
 }
